@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header{
+    height: 50px;
+    background-color: #b3b3b30f;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mac_img {
+    width: 312px;
+    height: 290px;
+    background-image: url(../img/macwhite.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+}
+
+.headAll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: rgba(0, 0, 0, .8);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.abbr {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+    margin-top: 70px;
+}
+
+
+.laptopss {
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+    margin-top: 63px;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-top: 47px;
+}
+
+.bold {
+    color: #000;
+    /* text-align: center; */
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.color {
+    color: #0071E3;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.White {
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #0071E3;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    transition: .5s ease;
+
+}
+
+.Space_Grey {
+    width: 155px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #CFE7FF;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.ssds{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 40px;
+}
+
+.ggbs {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 20px 17px 20px;
+    width: 321px;
+    height: 57px;
+    border-radius: 10px;
+    border: 2px solid #CFE7FF;
+
+    color: #000;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.varieties{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+}
+#first_ggbs{
+    border-color: #CFE7FF;
+    transition: .5s ease;
+}
+
+#second_ggbs{
+    border-color: #CFE7FF;
+    transition: .5s ease;
+}
+#third_ggbs{
+    border-color: #CFE7FF;
+    transition: .5s ease;
+}
+#fourth_ggbs{
+    border-color: #CFE7FF;
+    transition: .5s ease;
+}
+
+a:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+ a:not(:hover) {
+    transition: 0.3s;
+}
